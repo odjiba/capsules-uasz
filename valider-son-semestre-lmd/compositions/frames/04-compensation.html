@@ -1,0 +1,87 @@
+<template>
+<style>
+@font-face{font-family:"Inter";font-weight:400;src:url("assets/fonts/inter-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:400;src:url("assets/fonts/space-grotesk-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:500;src:url("assets/fonts/inter-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:500;src:url("assets/fonts/space-grotesk-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:600;src:url("assets/fonts/inter-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:600;src:url("assets/fonts/space-grotesk-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:700;src:url("assets/fonts/inter-latin-700-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:700;src:url("assets/fonts/space-grotesk-latin-700-normal.woff2") format("woff2");}
+#root{position:absolute;inset:0;font-family:"Inter",sans-serif;color:#111;}
+.x04-bg{position:absolute;inset:0;background:#fdfae7;}
+.x04-stage{position:absolute;inset:0;padding:80px 96px 120px 96px;display:flex;flex-direction:column;}
+.x04-sp{flex:1;}
+.x04-hdr{display:flex;justify-content:space-between;align-items:center;}
+.x04-eyebrow{font-family:"Space Grotesk";font-weight:600;font-size:22px;letter-spacing:.08em;text-transform:uppercase;color:#1e2bfa;}
+.x04-pill{font-family:"Space Grotesk";font-weight:500;font-size:20px;color:#1e2bfa;background:rgba(30,43,250,.08);border-radius:100px;padding:10px 22px;display:inline-block;}
+.x04-h1{font-family:"Space Grotesk";font-weight:700;font-size:96px;line-height:1.05;letter-spacing:-.02em;}
+.x04-h2{font-family:"Space Grotesk";font-weight:600;font-size:64px;line-height:1.1;letter-spacing:-.02em;margin-top:28px;}
+.x04-body{font-size:32px;line-height:1.5;color:#6b6b6b;}
+.x04-card{background:rgba(30,43,250,.04);border:1.5px solid rgba(30,43,250,.2);border-radius:14px;}
+.x04-num{font-family:"Space Grotesk";font-weight:700;color:#1e2bfa;font-variant-numeric:tabular-nums;}
+.x04-neg{color:#dc2626;}
+.x04-w{display:inline-block;}
+.x04-counter{position:absolute;left:96px;bottom:34px;font-family:"Space Grotesk";font-weight:500;font-size:18px;letter-spacing:.05em;color:#737373;}
+.x04-prog{position:absolute;left:0;bottom:0;height:4px;background:#1e2bfa;}
+.x04-lock{display:inline-block;position:relative;width:34px;height:40px;vertical-align:middle;}
+.x04-lock::before{content:"";position:absolute;left:7px;top:0;width:20px;height:22px;border:5px solid #1e2bfa;border-bottom:none;border-radius:12px 12px 0 0;box-sizing:border-box;}
+.x04-lock::after{content:"";position:absolute;left:0;bottom:0;width:34px;height:24px;background:#1e2bfa;border-radius:5px;}
+</style>
+<div id="root" data-composition-id="04-compensation" data-width="1920" data-height="1080" data-duration="11.236">
+  <div id="x04-bg" class="x04-bg clip" data-start="0" data-duration="11.236" data-track-index="0"></div>
+  <div class="x04-stage">
+  <div class="x04-hdr"><div class="x04-eyebrow" id="x04-eyebrow">Règle 2 · La compensation</div><div class="x04-pill">UASZ · Scolarité</div></div><div class="x04-sp"></div>
+  <div class="x04-h2"><span class="x04-w" id="x04-q0">Et</span> <span class="x04-w" id="x04-q1">si</span> <span class="x04-w" id="x04-q2">une</span> <span class="x04-w" id="x04-q3">UE</span> <span class="x04-w" id="x04-q4">est</span> <span class="x04-w" id="x04-q5">sous</span> <span class="x04-w" id="x04-q6">la</span> <span class="x04-w" id="x04-q7">moyenne</span> <span class="x04-w" id="x04-q8">?</span></div>
+  <div class="x04-body" id="x04-sub" style="margin-top:16px;font-size:34px;">Moyenne <b style="color:#111;">pondérée par les crédits</b></div>
+  <div style="position:relative;margin-top:120px;">
+    <div style="display:flex;gap:16px;align-items:flex-end;">
+      <div class="x04-card" id="x04-b0" style="flex:9;height:234px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;">
+        <div style="font-family:'Space Grotesk';font-weight:600;font-size:32px;">UE 1</div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;"><span class="x04-num " style="font-size:56px;">12</span><span class="x04-body" id="x04-p0" style="font-size:24px;">poids 9</span></div></div><div class="x04-card" id="x04-b1" style="flex:9;height:234px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;border-color:#dc2626;">
+        <div style="font-family:'Space Grotesk';font-weight:600;font-size:32px;">UE 2</div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;"><span class="x04-num x04-neg" style="font-size:56px;">8,5</span><span class="x04-body" id="x04-p1" style="font-size:24px;">poids 9</span></div></div><div class="x04-card" id="x04-b2" style="flex:6;height:156px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;">
+        <div style="font-family:'Space Grotesk';font-weight:600;font-size:32px;">UE 3</div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;"><span class="x04-num " style="font-size:56px;">11</span><span class="x04-body" id="x04-p2" style="font-size:24px;">poids 6</span></div></div><div class="x04-card" id="x04-b3" style="flex:6;height:156px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;border-color:#dc2626;">
+        <div style="font-family:'Space Grotesk';font-weight:600;font-size:32px;">UE 4</div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;"><span class="x04-num x04-neg" style="font-size:56px;">9</span><span class="x04-body" id="x04-p3" style="font-size:24px;">poids 6</span></div></div>
+    </div>
+    <div id="x04-beam" style="height:10px;background:#111;border-radius:5px;margin-top:14px;transform-origin:center center;"></div>
+    <div id="x04-pivot" style="width:0;height:0;margin:0 auto;border-left:40px solid transparent;border-right:40px solid transparent;border-bottom:60px solid #1e2bfa;"></div>
+  </div>
+  <div class="x04-sp"></div></div>
+  <div class="x04-counter">04 / 08</div>
+  <div class="x04-prog" style="width:50%"></div>
+</div>
+<script>
+(function(){
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#x04-q0", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.3);
+  tl.fromTo("#x04-q1", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.5);
+  tl.fromTo("#x04-q2", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.75);
+  tl.fromTo("#x04-q3", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.9);
+  tl.fromTo("#x04-q4", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.25);
+  tl.fromTo("#x04-q5", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.5);
+  tl.fromTo("#x04-q6", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.75);
+  tl.fromTo("#x04-q7", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.9);
+  tl.fromTo("#x04-q8", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 2.4);
+  tl.fromTo("#x04-sub", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.6,ease:"power3.out"}, 4.3);
+  tl.fromTo("#x04-b0", {opacity:0,y:60}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 6.0);
+  tl.fromTo("#x04-b1", {opacity:0,y:60}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 6.35);
+  tl.fromTo("#x04-b2", {opacity:0,y:60}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 6.7);
+  tl.fromTo("#x04-b3", {opacity:0,y:60}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 7.05);
+  tl.fromTo("#x04-beam", {scaleX:0}, {scaleX:1,duration:0.7,ease:"power3.out"}, 7.7);
+  tl.fromTo("#x04-pivot", {opacity:0,y:20}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 8.1);
+  tl.fromTo("#x04-p0", {opacity:0.25}, {opacity:1,duration:0.4,ease:"power2.out"}, 9.1);
+  tl.fromTo("#x04-p1", {opacity:0.25}, {opacity:1,duration:0.4,ease:"power2.out"}, 9.3);
+  tl.fromTo("#x04-p2", {opacity:0.25}, {opacity:1,duration:0.4,ease:"power2.out"}, 9.5);
+  tl.fromTo("#x04-p3", {opacity:0.25}, {opacity:1,duration:0.4,ease:"power2.out"}, 9.7);
+  tl.set("#x04-p0", {opacity:0.25}, 0);
+  tl.set("#x04-p1", {opacity:0.25}, 0);
+  tl.set("#x04-p2", {opacity:0.25}, 0);
+  tl.set("#x04-p3", {opacity:0.25}, 0);
+  tl.set({}, {}, 10.736);
+  window.__timelines["04-compensation"] = tl;
+})();
+</script>
+</template>

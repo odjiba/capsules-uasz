@@ -1,0 +1,71 @@
+<template>
+<style>
+@font-face{font-family:"Inter";font-weight:400;src:url("assets/fonts/inter-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:400;src:url("assets/fonts/space-grotesk-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:500;src:url("assets/fonts/inter-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:500;src:url("assets/fonts/space-grotesk-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:600;src:url("assets/fonts/inter-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:600;src:url("assets/fonts/space-grotesk-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:700;src:url("assets/fonts/inter-latin-700-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:700;src:url("assets/fonts/space-grotesk-latin-700-normal.woff2") format("woff2");}
+#root{position:absolute;inset:0;font-family:"Inter",sans-serif;color:#111;}
+.x03-bg{position:absolute;inset:0;background:#fdfae7;}
+.x03-stage{position:absolute;inset:0;padding:80px 96px 120px 96px;display:flex;flex-direction:column;}
+.x03-sp{flex:1;}
+.x03-hdr{display:flex;justify-content:space-between;align-items:center;}
+.x03-eyebrow{font-family:"Space Grotesk";font-weight:600;font-size:22px;letter-spacing:.08em;text-transform:uppercase;color:#1e2bfa;}
+.x03-pill{font-family:"Space Grotesk";font-weight:500;font-size:20px;color:#1e2bfa;background:rgba(30,43,250,.08);border-radius:100px;padding:10px 22px;display:inline-block;}
+.x03-h1{font-family:"Space Grotesk";font-weight:700;font-size:96px;line-height:1.05;letter-spacing:-.02em;}
+.x03-h2{font-family:"Space Grotesk";font-weight:600;font-size:64px;line-height:1.1;letter-spacing:-.02em;margin-top:28px;}
+.x03-body{font-size:32px;line-height:1.5;color:#6b6b6b;}
+.x03-card{background:rgba(30,43,250,.04);border:1.5px solid rgba(30,43,250,.2);border-radius:14px;}
+.x03-num{font-family:"Space Grotesk";font-weight:700;color:#1e2bfa;font-variant-numeric:tabular-nums;}
+.x03-neg{color:#dc2626;}
+.x03-w{display:inline-block;}
+.x03-counter{position:absolute;left:96px;bottom:34px;font-family:"Space Grotesk";font-weight:500;font-size:18px;letter-spacing:.05em;color:#737373;}
+.x03-prog{position:absolute;left:0;bottom:0;height:4px;background:#1e2bfa;}
+.x03-lock{display:inline-block;position:relative;width:34px;height:40px;vertical-align:middle;}
+.x03-lock::before{content:"";position:absolute;left:7px;top:0;width:20px;height:22px;border:5px solid #1e2bfa;border-bottom:none;border-radius:12px 12px 0 0;box-sizing:border-box;}
+.x03-lock::after{content:"";position:absolute;left:0;bottom:0;width:34px;height:24px;background:#1e2bfa;border-radius:5px;}
+</style>
+<div id="root" data-composition-id="03-valider-ue" data-width="1920" data-height="1080" data-duration="8.237">
+  <div id="x03-bg" class="x03-bg clip" data-start="0" data-duration="8.237" data-track-index="0"></div>
+  <div class="x03-stage">
+  <div class="x03-hdr"><div class="x03-eyebrow" id="x03-eyebrow">Règle 1 · Valider une UE</div><div class="x03-pill">UASZ · Scolarité</div></div><div class="x03-sp"></div>
+  <div class="x03-h2" id="x03-title">Une UE est validée à <span class="x03-num x03-w" id="x03-seuil">10/20</span></div>
+  <div style="display:flex;gap:90px;margin-top:80px;align-items:center;">
+    <div class="x03-card" id="x03-card" style="width:860px;padding:40px 44px;">
+      <div style="font-family:'Space Grotesk';font-weight:600;font-size:36px;">UE 3 — 2 matières</div>
+      <div id="x03-ma" style="display:flex;justify-content:space-between;margin-top:30px;font-size:32px;"><span>Matière A</span><span class="x03-num x03-neg" style="font-size:44px;">7</span></div>
+      <div id="x03-mb" style="display:flex;justify-content:space-between;margin-top:18px;font-size:32px;"><span>Matière B</span><span class="x03-num" style="font-size:44px;">13</span></div>
+      <div id="x03-moy" style="display:flex;justify-content:space-between;align-items:center;margin-top:30px;padding-top:26px;border-top:2px solid rgba(30,43,250,.2);">
+        <span style="font-family:'Space Grotesk';font-weight:600;font-size:34px;">Moyenne de l'UE</span>
+        <span><span class="x03-num" id="x03-avg" style="font-size:64px;">10</span> <span class="x03-pill" id="x03-ok" style="background:rgba(5,150,105,.12);color:#059669;margin-left:14px;">Validée</span></span></div>
+    </div>
+    <div style="flex:1;" id="x03-side">
+      <div class="x03-body" style="font-size:34px;color:#111;">Compensation entre matières</div>
+      <div class="x03-body" style="margin-top:20px;">7 + 13, même coefficient → 10</div>
+    </div>
+  </div>
+  <div class="x03-sp"></div></div>
+  <div class="x03-counter">03 / 08</div>
+  <div class="x03-prog" style="width:37.5%"></div>
+</div>
+<script>
+(function(){
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#x03-title", {opacity:0,y:30}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 0.2);
+  tl.fromTo("#x03-seuil", {scale:1}, {scale:1.12,duration:0.3,ease:"power2.out",yoyo:false}, 2.4);
+  tl.to("#x03-seuil", {scale:1,duration:0.4,ease:"power2.out"}, 2.7);
+  tl.fromTo("#x03-card", {opacity:0,y:30}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 3.3);
+  tl.fromTo("#x03-ma", {opacity:0,x:-20}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 4.3);
+  tl.fromTo("#x03-mb", {opacity:0,x:-20}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 4.9);
+  tl.fromTo("#x03-side", {opacity:0,y:20}, {opacity:1,y:0,x:0,duration:0.6,ease:"power3.out"}, 5.5);
+  tl.fromTo("#x03-moy", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 6.0);
+  (function(){const el=document.getElementById("x03-avg");const s={v:0};tl.to(s,{v:10,duration:1,ease:"power2.out",onUpdate:function(){el.textContent=Math.round(s.v);}}, 6.2);})();
+  tl.fromTo("#x03-ok", {opacity:0,scale:0.4}, {opacity:1,scale:1,duration:0.5,ease:"back.out(2)"}, 7.0);
+  tl.set({}, {}, 7.837);
+  window.__timelines["03-valider-ue"] = tl;
+})();
+</script>
+</template>

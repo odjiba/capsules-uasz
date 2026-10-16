@@ -1,0 +1,63 @@
+<template>
+<style>
+@font-face{font-family:"Inter";font-weight:400;src:url("assets/fonts/inter-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:400;src:url("assets/fonts/space-grotesk-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:500;src:url("assets/fonts/inter-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:500;src:url("assets/fonts/space-grotesk-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:600;src:url("assets/fonts/inter-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:600;src:url("assets/fonts/space-grotesk-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:700;src:url("assets/fonts/inter-latin-700-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:700;src:url("assets/fonts/space-grotesk-latin-700-normal.woff2") format("woff2");}
+#root{position:absolute;inset:0;font-family:"Inter",sans-serif;color:#111;}
+.x08-bg{position:absolute;inset:0;background:#fdfae7;}
+.x08-stage{position:absolute;inset:0;padding:80px 96px 120px 96px;display:flex;flex-direction:column;}
+.x08-sp{flex:1;}
+.x08-hdr{display:flex;justify-content:space-between;align-items:center;}
+.x08-eyebrow{font-family:"Space Grotesk";font-weight:600;font-size:22px;letter-spacing:.08em;text-transform:uppercase;color:#1e2bfa;}
+.x08-pill{font-family:"Space Grotesk";font-weight:500;font-size:20px;color:#1e2bfa;background:rgba(30,43,250,.08);border-radius:100px;padding:10px 22px;display:inline-block;}
+.x08-h1{font-family:"Space Grotesk";font-weight:700;font-size:96px;line-height:1.05;letter-spacing:-.02em;}
+.x08-h2{font-family:"Space Grotesk";font-weight:600;font-size:64px;line-height:1.1;letter-spacing:-.02em;margin-top:28px;}
+.x08-body{font-size:32px;line-height:1.5;color:#6b6b6b;}
+.x08-card{background:rgba(30,43,250,.04);border:1.5px solid rgba(30,43,250,.2);border-radius:14px;}
+.x08-num{font-family:"Space Grotesk";font-weight:700;color:#1e2bfa;font-variant-numeric:tabular-nums;}
+.x08-neg{color:#dc2626;}
+.x08-w{display:inline-block;}
+.x08-counter{position:absolute;left:96px;bottom:34px;font-family:"Space Grotesk";font-weight:500;font-size:18px;letter-spacing:.05em;color:#737373;}
+.x08-prog{position:absolute;left:0;bottom:0;height:4px;background:#1e2bfa;}
+.x08-lock{display:inline-block;position:relative;width:34px;height:40px;vertical-align:middle;}
+.x08-lock::before{content:"";position:absolute;left:7px;top:0;width:20px;height:22px;border:5px solid #1e2bfa;border-bottom:none;border-radius:12px 12px 0 0;box-sizing:border-box;}
+.x08-lock::after{content:"";position:absolute;left:0;bottom:0;width:34px;height:24px;background:#1e2bfa;border-radius:5px;}
+</style>
+<div id="root" data-composition-id="08-a-retenir" data-width="1920" data-height="1080" data-duration="10.0">
+  <div id="x08-bg" class="x08-bg clip" data-start="0" data-duration="10.0" data-track-index="0"></div>
+  <div class="x08-stage">
+  <div class="x08-hdr"><div class="x08-eyebrow" id="x08-eyebrow">À retenir</div><div class="x08-pill">UASZ · Scolarité</div></div><div class="x08-sp"></div>
+  <div style="display:flex;gap:28px;">
+    <div class="x08-card" id="x08-t0" style="flex:1;height:360px;padding:44px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div class="x08-num" style="font-size:128px;line-height:1;">10</div>
+      <div style="font-family:'Space Grotesk';font-weight:500;font-size:36px;line-height:1.25;">de moyenne pondérée par les crédits</div></div><div class="x08-card" id="x08-t1" style="flex:1;height:360px;padding:44px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div class="x08-num" style="font-size:128px;line-height:1;">30</div>
+      <div style="font-family:'Space Grotesk';font-weight:500;font-size:36px;line-height:1.25;">crédits par semestre</div></div><div class="x08-card" id="x08-t2" style="flex:1;height:360px;padding:44px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div class="x08-num" style="font-size:128px;line-height:1;">À vie</div>
+      <div style="font-family:'Space Grotesk';font-weight:500;font-size:36px;line-height:1.25;">tout ce qui est validé reste acquis</div></div>
+  </div>
+  <div id="x08-src" style="display:flex;justify-content:space-between;margin-top:70px;align-items:center;">
+    <span class="x08-body" style="font-size:26px;">Source : Décret n° 2012-1114 du 12 octobre 2012 — art. 9, 27 à 29</span>
+    <span style="font-family:'Space Grotesk';font-weight:600;font-size:28px;">UASZ · Direction de la scolarité centrale</span></div>
+  <div class="x08-sp"></div></div>
+  <div class="x08-counter">08 / 08</div>
+  <div class="x08-prog" style="width:100%"></div>
+</div>
+<script>
+(function(){
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#x08-eyebrow", {opacity:0,y:10}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.1);
+  tl.fromTo("#x08-t0", {opacity:0,y:50}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 1.4);
+  tl.fromTo("#x08-t1", {opacity:0,y:50}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 3.1);
+  tl.fromTo("#x08-t2", {opacity:0,y:50}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 4.6);
+  tl.fromTo("#x08-src", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 7.0);
+  tl.set({}, {}, 10.0);
+  window.__timelines["08-a-retenir"] = tl;
+})();
+</script>
+</template>

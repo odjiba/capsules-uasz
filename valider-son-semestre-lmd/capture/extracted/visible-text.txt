@@ -1,0 +1,10 @@
+SOURCE : Décret n° 2012-1114 du 12 octobre 2012 relatif au diplôme de licence (République du Sénégal).
+
+Art. 3 — Le cursus de la licence est structuré en six semestres d'enseignement de 30 crédits chacun. Semestres 1 et 2 = Licence 1.
+Art. 9 — Peut s'inscrire en L2 l'étudiant ayant validé les semestres 1 et 2. Sinon, passage conditionnel en L2 autorisé à tout étudiant ayant validé et capitalisé au moins 70 % des 60 crédits de la L1.
+Art. 26 — Chaque UE est affectée d'un coefficient et d'une valeur en crédits. L'échelle des valeurs en crédits est identique à celle des coefficients.
+Art. 27 — Une UE est validée si la note obtenue est égale ou supérieure à 10/20. Une UE composée de plusieurs éléments constitutifs est validée par compensation entre ses éléments constitutifs. Les UE validées sont définitivement acquises et capitalisables. L'acquisition de l'UE emporte l'acquisition des crédits correspondants.
+Art. 28 — Un semestre est validé : si toutes les UE le composant sont validées individuellement ; ou par compensation intra-semestre si l'étudiant a la moyenne entre les différentes UE du semestre, affectées de leurs coefficients. La compensation entre les UE s'effectue quelle que soit la note obtenue dans le semestre.
+Art. 29 — Tout semestre validé est définitivement acquis. La validation d'un semestre emporte l'acquisition des 30 crédits correspondants.
+
+Décisions de l'utilisateur : pas de note éliminatoire, pas de compensation annuelle entre semestres (non prévues par le décret).

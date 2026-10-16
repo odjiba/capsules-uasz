@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "preferences": {
+    "destination": {
+      "value": "website",
+      "confirmed_in": [
+        "valider-son-semestre-lmd"
+      ],
+      "updated_at": "2026-10-16T10:00:11.061Z"
+    },
+    "aspect": {
+      "value": "1920x1080",
+      "confirmed_in": [
+        "valider-son-semestre-lmd"
+      ],
+      "updated_at": "2026-10-16T10:00:11.140Z"
+    },
+    "language": {
+      "value": "fr",
+      "confirmed_in": [
+        "valider-son-semestre-lmd"
+      ],
+      "updated_at": "2026-10-16T10:00:11.199Z"
+    },
+    "flow": {
+      "value": "automation",
+      "confirmed_in": [
+        "valider-son-semestre-lmd"
+      ],
+      "updated_at": "2026-10-16T10:00:11.260Z"
+    },
+    "storyboard": {
+      "value": "yes",
+      "confirmed_in": [
+        "valider-son-semestre-lmd"
+      ],
+      "updated_at": "2026-10-16T10:00:11.341Z"
+    },
+    "style_preset.faceless-explainer": {
+      "value": "blue-professional",
+      "confirmed_in": [
+        "valider-son-semestre-lmd"
+      ],
+      "updated_at": "2026-10-16T10:00:31.592Z"
+    },
+    "voice": {
+      "value": "4b1de1582d2c477485ad2e0c2717f0ff",
+      "confirmed_in": [
+        "valider-son-semestre-lmd"
+      ],
+      "updated_at": "2026-10-16T16:54:21.534Z"
+    }
+  },
+  "sightings": {}
+}
