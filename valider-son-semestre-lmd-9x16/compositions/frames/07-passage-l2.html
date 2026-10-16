@@ -1,0 +1,59 @@
+<template>
+<style>
+@font-face{font-family:"Inter";font-weight:400;src:url("assets/fonts/inter-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:400;src:url("assets/fonts/space-grotesk-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:500;src:url("assets/fonts/inter-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:500;src:url("assets/fonts/space-grotesk-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:600;src:url("assets/fonts/inter-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:600;src:url("assets/fonts/space-grotesk-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:700;src:url("assets/fonts/inter-latin-700-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:700;src:url("assets/fonts/space-grotesk-latin-700-normal.woff2") format("woff2");}
+#root{position:absolute;inset:0;font-family:"Inter",sans-serif;color:#111;}
+.x07-bg{position:absolute;inset:0;background:#fdfae7;}
+.x07-stage{position:absolute;inset:0;padding:150px 72px 340px 72px;display:flex;flex-direction:column;}
+.x07-sp{flex:1;}
+.x07-hdr{display:flex;flex-direction:column;align-items:flex-start;gap:26px;}
+.x07-eyebrow{font-family:"Space Grotesk";font-weight:600;font-size:30px;letter-spacing:.08em;text-transform:uppercase;color:#1e2bfa;}
+.x07-pill{font-family:"Space Grotesk";font-weight:500;font-size:28px;color:#1e2bfa;background:rgba(30,43,250,.08);border-radius:100px;padding:12px 26px;display:inline-block;}
+.x07-h1{font-family:"Space Grotesk";font-weight:700;font-size:150px;line-height:1.02;letter-spacing:-.02em;}
+.x07-h2{font-family:"Space Grotesk";font-weight:600;font-size:92px;line-height:1.08;letter-spacing:-.02em;margin-top:36px;}
+.x07-body{font-size:42px;line-height:1.45;color:#6b6b6b;}
+.x07-card{background:rgba(30,43,250,.04);border:1.5px solid rgba(30,43,250,.2);border-radius:14px;}
+.x07-num{font-family:"Space Grotesk";font-weight:700;color:#1e2bfa;font-variant-numeric:tabular-nums;}
+.x07-neg{color:#dc2626;}
+.x07-w{display:inline-block;}
+.x07-counter{position:absolute;left:72px;bottom:40px;font-family:"Space Grotesk";font-weight:500;font-size:24px;letter-spacing:.05em;color:#737373;}
+.x07-prog{position:absolute;left:0;bottom:0;height:6px;background:#1e2bfa;}
+.x07-lock{display:inline-block;position:relative;width:34px;height:40px;vertical-align:middle;}
+.x07-lock::before{content:"";position:absolute;left:7px;top:0;width:20px;height:22px;border:5px solid #1e2bfa;border-bottom:none;border-radius:12px 12px 0 0;box-sizing:border-box;}
+.x07-lock::after{content:"";position:absolute;left:0;bottom:0;width:34px;height:24px;background:#1e2bfa;border-radius:5px;}
+</style>
+<div id="root" data-composition-id="07-passage-l2" data-width="1080" data-height="1920" data-duration="8.389">
+  <div id="x07-bg" class="x07-bg clip" data-start="0" data-duration="8.389" data-track-index="0"></div>
+  <div class="x07-stage">
+  <div class="x07-hdr"><div class="x07-pill">UASZ · Scolarité</div><div class="x07-eyebrow" id="x07-eyebrow">Bon à savoir · Passage en L2</div></div><div class="x07-sp" style="flex:.55;"></div>
+  <div class="x07-h2" id="x07-title">Au moins <span class="x07-num x07-w" id="x07-n42">42</span> crédits sur 60</div>
+  <div class="x07-body" id="x07-sub" style="margin-top:22px;">70 % des crédits de L1</div>
+  <div style="position:relative;margin-top:300px;" id="x07-gauge"><div style="position:relative;height:96px;background:rgba(30,43,250,.08);border-radius:12px;overflow:hidden;"><div id="x07-fill" style="position:absolute;left:0;top:0;bottom:0;width:70%;background:#1e2bfa;transform-origin:left center;"></div><div style="position:absolute;left:50%;top:0;bottom:0;width:4px;background:#fdfae7;"></div></div><div id="x07-mark" style="position:absolute;left:70%;top:-50px;height:196px;width:5px;margin-left:-2px;background:#111;transform-origin:center top;"></div><div id="x07-markl" data-layout-allow-overflow style="position:absolute;left:70%;top:-136px;margin-left:-200px;width:400px;text-align:center;font-family:'Space Grotesk';font-weight:700;font-size:48px;white-space:nowrap;">70 % = 42 crédits</div><div style="position:relative;height:44px;margin-top:26px;font-family:'Space Grotesk';font-size:32px;color:#6b6b6b;"><span style="position:absolute;left:0;">0</span><span style="position:absolute;left:25%;margin-left:-120px;width:240px;text-align:center;white-space:nowrap;">Semestre 1</span><span style="position:absolute;left:81%;margin-left:-90px;width:180px;text-align:center;white-space:nowrap;">Semestre 2</span><span style="position:absolute;right:0;">60</span></div><div style="margin-top:170px;"><span class="x07-pill" id="x07-pass" style="font-size:40px;padding:18px 34px;">Passage conditionnel en L2</span></div></div>
+  <div class="x07-sp"></div></div>
+  <div class="x07-counter">07 / 08</div>
+  <div class="x07-prog" style="width:87.5%"></div>
+</div>
+<script>
+(function(){
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#x07-title", {opacity:0,y:30}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 0.3);
+  document.getElementById("x07-n42").textContent="0";
+  tl.fromTo("#x07-n42", {opacity:0}, {opacity:1,duration:0.3,ease:"power2.out"}, 2.6);
+  tl.fromTo("#x07-gauge", {opacity:0,y:30}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 1.0);
+  tl.fromTo("#x07-fill", {scaleX:0}, {scaleX:1,duration:1.4,ease:"power2.inOut"}, 2.6);
+  (function(){const el=document.getElementById("x07-n42");const s={v:0};tl.to(s,{v:42,duration:1.2,ease:"power2.out",onUpdate:function(){el.textContent=Math.round(s.v);}}, 2.6);})();
+  tl.fromTo("#x07-sub", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.6,ease:"power3.out"}, 3.7);
+  tl.fromTo("#x07-mark", {scaleY:0}, {scaleY:1,duration:0.5,ease:"power3.out"}, 4.0);
+  tl.fromTo("#x07-markl", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 4.2);
+  tl.fromTo("#x07-pass", {opacity:0,scale:0.6}, {opacity:1,scale:1,duration:0.5,ease:"back.out(2)"}, 5.6);
+  tl.set({}, {}, 7.889);
+  window.__timelines["07-passage-l2"] = tl;
+})();
+</script>
+</template>

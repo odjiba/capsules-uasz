@@ -1,0 +1,1615 @@
+{
+  "total_duration_s": 77.192,
+  "width": 1080,
+  "height": 1920,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.325,
+      "end": 1.349,
+      "text": "Voici Awa,",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "Voici",
+          "start": 0.325,
+          "end": 0.742
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "Awa,",
+          "start": 0.788,
+          "end": 1.229
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 1.391,
+      "end": 1.882,
+      "text": "en L1",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "en",
+          "start": 1.391,
+          "end": 1.53
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "L1",
+          "start": 1.577,
+          "end": 1.762
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 1.901,
+      "end": 3.25,
+      "text": "à l'UASZ.",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "à",
+          "start": 1.901,
+          "end": 2.272
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "l'UASZ.",
+          "start": 2.318,
+          "end": 3.13
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 1,
+      "start": 3.386,
+      "end": 4.85,
+      "text": "Résultats du semestre",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "Résultats",
+          "start": 3.386,
+          "end": 4.081
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "du",
+          "start": 4.127,
+          "end": 4.266
+        },
+        {
+          "id": "caption-word-3-2",
+          "text": "semestre",
+          "start": 4.313,
+          "end": 4.73
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 1,
+      "start": 4.87,
+      "end": 5.175,
+      "text": "1",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "1",
+          "start": 4.87,
+          "end": 5.055
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 1,
+      "start": 5.518,
+      "end": 6.752,
+      "text": "huit virgule cinq",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "huit",
+          "start": 5.518,
+          "end": 5.936
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "virgule",
+          "start": 5.983,
+          "end": 6.307
+        },
+        {
+          "id": "caption-word-5-2",
+          "text": "cinq",
+          "start": 6.353,
+          "end": 6.632
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 1,
+      "start": 6.864,
+      "end": 8.097,
+      "text": "dans une UE.",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "dans",
+          "start": 6.864,
+          "end": 7.188
+        },
+        {
+          "id": "caption-word-6-1",
+          "text": "une",
+          "start": 7.235,
+          "end": 7.42
+        },
+        {
+          "id": "caption-word-6-2",
+          "text": "UE.",
+          "start": 7.466,
+          "end": 7.977
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 1,
+      "start": 8.255,
+      "end": 9.275,
+      "text": "Elle croit avoir",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "Elle",
+          "start": 8.255,
+          "end": 8.533
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "croit",
+          "start": 8.579,
+          "end": 8.858
+        },
+        {
+          "id": "caption-word-7-2",
+          "text": "avoir",
+          "start": 8.904,
+          "end": 9.229
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 1,
+      "start": 9.275,
+      "end": 10.527,
+      "text": "raté son semestre.",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "raté",
+          "start": 9.275,
+          "end": 9.6
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "son",
+          "start": 9.647,
+          "end": 9.739
+        },
+        {
+          "id": "caption-word-8-2",
+          "text": "semestre.",
+          "start": 9.786,
+          "end": 10.412
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 1,
+      "start": 10.527,
+      "end": 11.317,
+      "text": "Elle a tort.",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "Elle",
+          "start": 10.527,
+          "end": 10.713
+        },
+        {
+          "id": "caption-word-9-1",
+          "text": "a",
+          "start": 10.76,
+          "end": 10.852
+        },
+        {
+          "id": "caption-word-9-2",
+          "text": "tort.",
+          "start": 10.899,
+          "end": 11.197
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 2,
+      "start": 11.871,
+      "end": 12.473,
+      "text": "Ton semestre",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "Ton",
+          "start": 11.871,
+          "end": 12.01
+        },
+        {
+          "id": "caption-word-10-1",
+          "text": "semestre",
+          "start": 12.056,
+          "end": 12.427
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 2,
+      "start": 12.473,
+      "end": 12.984,
+      "text": "est découpé",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "est",
+          "start": 12.473,
+          "end": 12.52
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "découpé",
+          "start": 12.567,
+          "end": 12.937
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 2,
+      "start": 12.984,
+      "end": 14.309,
+      "text": "en unités d'enseignement",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "en",
+          "start": 12.984,
+          "end": 13.076
+        },
+        {
+          "id": "caption-word-12-1",
+          "text": "unités",
+          "start": 13.123,
+          "end": 13.586
+        },
+        {
+          "id": "caption-word-12-2",
+          "text": "d'enseignement",
+          "start": 13.633,
+          "end": 14.189
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 2,
+      "start": 14.607,
+      "end": 15.539,
+      "text": "les UE.",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "les",
+          "start": 14.607,
+          "end": 14.746
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "UE.",
+          "start": 14.793,
+          "end": 15.419
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 2,
+      "start": 15.72,
+      "end": 16.369,
+      "text": "Chaque UE",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "Chaque",
+          "start": 15.72,
+          "end": 16.045
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "UE",
+          "start": 16.137,
+          "end": 16.323
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 2,
+      "start": 16.369,
+      "end": 17.393,
+      "text": "vaut des crédits,",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "vaut",
+          "start": 16.369,
+          "end": 16.508
+        },
+        {
+          "id": "caption-word-15-1",
+          "text": "des",
+          "start": 16.555,
+          "end": 16.647
+        },
+        {
+          "id": "caption-word-15-2",
+          "text": "crédits,",
+          "start": 16.694,
+          "end": 17.273
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 2,
+      "start": 17.482,
+      "end": 18.483,
+      "text": "et un semestre",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "et",
+          "start": 17.482,
+          "end": 17.668
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "un",
+          "start": 17.714,
+          "end": 17.807
+        },
+        {
+          "id": "caption-word-16-2",
+          "text": "semestre",
+          "start": 17.854,
+          "end": 18.363
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 2,
+      "start": 18.503,
+      "end": 19.822,
+      "text": "en compte trente.",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "en",
+          "start": 18.503,
+          "end": 18.642
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "compte",
+          "start": 18.688,
+          "end": 18.966
+        },
+        {
+          "id": "caption-word-17-2",
+          "text": "trente.",
+          "start": 19.059,
+          "end": 19.702
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 3,
+      "start": 20.204,
+      "end": 20.834,
+      "text": "Une UE",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "Une",
+          "start": 20.204,
+          "end": 20.343
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "UE",
+          "start": 20.436,
+          "end": 20.714
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 3,
+      "start": 20.9,
+      "end": 21.641,
+      "text": "est validée",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "est",
+          "start": 20.9,
+          "end": 21.084
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "validée",
+          "start": 21.131,
+          "end": 21.595
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 3,
+      "start": 21.641,
+      "end": 22.152,
+      "text": "à partir",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "à",
+          "start": 21.641,
+          "end": 21.688
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "partir",
+          "start": 21.734,
+          "end": 22.058
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 3,
+      "start": 22.152,
+      "end": 22.615,
+      "text": "de dix",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "de",
+          "start": 22.152,
+          "end": 22.197
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "dix",
+          "start": 22.291,
+          "end": 22.522
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 3,
+      "start": 22.615,
+      "end": 23.408,
+      "text": "sur vingt.",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "sur",
+          "start": 22.615,
+          "end": 22.754
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "vingt.",
+          "start": 22.847,
+          "end": 23.288
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 3,
+      "start": 23.496,
+      "end": 25.517,
+      "text": "À l'intérieur d'une UE,",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "À",
+          "start": 23.496,
+          "end": 24.099
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "l'intérieur",
+          "start": 24.145,
+          "end": 24.749
+        },
+        {
+          "id": "caption-word-23-2",
+          "text": "d'une",
+          "start": 24.795,
+          "end": 24.98
+        },
+        {
+          "id": "caption-word-23-3",
+          "text": "UE,",
+          "start": 25.027,
+          "end": 25.397
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 3,
+      "start": 25.583,
+      "end": 26.232,
+      "text": "tes matières",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "tes",
+          "start": 25.583,
+          "end": 25.722
+        },
+        {
+          "id": "caption-word-24-1",
+          "text": "matières",
+          "start": 25.769,
+          "end": 26.186
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 3,
+      "start": 26.232,
+      "end": 26.928,
+      "text": "se compensent",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "se",
+          "start": 26.232,
+          "end": 26.325
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "compensent",
+          "start": 26.371,
+          "end": 26.882
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 3,
+      "start": 26.928,
+      "end": 27.476,
+      "text": "entre elles.",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "entre",
+          "start": 26.928,
+          "end": 27.067
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "elles.",
+          "start": 27.161,
+          "end": 27.356
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 4,
+      "start": 27.994,
+      "end": 28.504,
+      "text": "Et si",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "Et",
+          "start": 27.994,
+          "end": 28.18
+        },
+        {
+          "id": "caption-word-27-1",
+          "text": "si",
+          "start": 28.226,
+          "end": 28.412
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 4,
+      "start": 28.504,
+      "end": 28.996,
+      "text": "une UE",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "une",
+          "start": 28.504,
+          "end": 28.597
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "UE",
+          "start": 28.643,
+          "end": 28.876
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 4,
+      "start": 29.015,
+      "end": 29.525,
+      "text": "est sous",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "est",
+          "start": 29.015,
+          "end": 29.154
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "sous",
+          "start": 29.2,
+          "end": 29.478
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 4,
+      "start": 29.525,
+      "end": 30.109,
+      "text": "la moyenne",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "la",
+          "start": 29.525,
+          "end": 29.571
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "moyenne",
+          "start": 29.617,
+          "end": 29.989
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 4,
+      "start": 30.73,
+      "end": 31.798,
+      "text": "C'est là qu'intervient",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "C'est",
+          "start": 30.73,
+          "end": 31.008
+        },
+        {
+          "id": "caption-word-31-1",
+          "text": "là",
+          "start": 31.055,
+          "end": 31.194
+        },
+        {
+          "id": "caption-word-31-2",
+          "text": "qu'intervient",
+          "start": 31.241,
+          "end": 31.751
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 4,
+      "start": 31.798,
+      "end": 32.613,
+      "text": "la compensation",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "la",
+          "start": 31.798,
+          "end": 31.936
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "compensation",
+          "start": 31.982,
+          "end": 32.493
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 4,
+      "start": 32.911,
+      "end": 34.069,
+      "text": "on calcule ta",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "on",
+          "start": 32.911,
+          "end": 33.374
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "calcule",
+          "start": 33.42,
+          "end": 33.838
+        },
+        {
+          "id": "caption-word-33-2",
+          "text": "ta",
+          "start": 33.884,
+          "end": 34.023
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 4,
+      "start": 34.069,
+      "end": 35.368,
+      "text": "moyenne sur l'ensemble",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "moyenne",
+          "start": 34.069,
+          "end": 34.441
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "sur",
+          "start": 34.487,
+          "end": 34.673
+        },
+        {
+          "id": "caption-word-34-2",
+          "text": "l'ensemble",
+          "start": 34.765,
+          "end": 35.275
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 4,
+      "start": 35.368,
+      "end": 36.161,
+      "text": "des UE,",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "des",
+          "start": 35.368,
+          "end": 35.461
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "UE,",
+          "start": 35.507,
+          "end": 36.041
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 4,
+      "start": 36.25,
+      "end": 37.733,
+      "text": "chacune pondérée par ses",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "chacune",
+          "start": 36.25,
+          "end": 36.759
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "pondérée",
+          "start": 36.806,
+          "end": 37.363
+        },
+        {
+          "id": "caption-word-36-2",
+          "text": "par",
+          "start": 37.408,
+          "end": 37.502
+        },
+        {
+          "id": "caption-word-36-3",
+          "text": "ses",
+          "start": 37.548,
+          "end": 37.687
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 4,
+      "start": 37.733,
+      "end": 38.228,
+      "text": "crédits.",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "crédits.",
+          "start": 37.733,
+          "end": 38.108
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 5,
+      "start": 38.73,
+      "end": 39.268,
+      "text": "Awa",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "Awa",
+          "start": 38.73,
+          "end": 39.148
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 5,
+      "start": 39.657,
+      "end": 40.261,
+      "text": "douze,",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "douze,",
+          "start": 39.657,
+          "end": 40.144
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 5,
+      "start": 40.261,
+      "end": 41.819,
+      "text": "huit virgule cinq,",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "huit",
+          "start": 40.261,
+          "end": 40.724
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "virgule",
+          "start": 40.77,
+          "end": 41.142
+        },
+        {
+          "id": "caption-word-40-2",
+          "text": "cinq,",
+          "start": 41.188,
+          "end": 41.699
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 5,
+      "start": 41.93,
+      "end": 43.14,
+      "text": "onze et neuf.",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "onze",
+          "start": 41.93,
+          "end": 42.209
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "et",
+          "start": 42.301,
+          "end": 42.394
+        },
+        {
+          "id": "caption-word-41-2",
+          "text": "neuf.",
+          "start": 42.44,
+          "end": 43.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 5,
+      "start": 43.414,
+      "end": 44.184,
+      "text": "Moyenne",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "Moyenne",
+          "start": 43.414,
+          "end": 44.064
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 5,
+      "start": 44.62,
+      "end": 46.132,
+      "text": "dix virgule quinze.",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "dix",
+          "start": 44.62,
+          "end": 44.852
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "virgule",
+          "start": 44.899,
+          "end": 45.269
+        },
+        {
+          "id": "caption-word-43-2",
+          "text": "quinze.",
+          "start": 45.362,
+          "end": 46.012
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 5,
+      "start": 46.336,
+      "end": 47.638,
+      "text": "Semestre validé,",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "Semestre",
+          "start": 46.336,
+          "end": 46.846
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "validé,",
+          "start": 46.939,
+          "end": 47.518
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 5,
+      "start": 47.681,
+      "end": 48.825,
+      "text": "trente crédits acquis.",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "trente",
+          "start": 47.681,
+          "end": 47.959
+        },
+        {
+          "id": "caption-word-45-1",
+          "text": "crédits",
+          "start": 48.005,
+          "end": 48.33
+        },
+        {
+          "id": "caption-word-45-2",
+          "text": "acquis.",
+          "start": 48.377,
+          "end": 48.705
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 6,
+      "start": 50.83,
+      "end": 51.248,
+      "text": "Et si",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "Et",
+          "start": 50.83,
+          "end": 51.016
+        },
+        {
+          "id": "caption-word-46-1",
+          "text": "si",
+          "start": 51.062,
+          "end": 51.201
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 6,
+      "start": 51.248,
+      "end": 51.526,
+      "text": "ça ne",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "ça",
+          "start": 51.248,
+          "end": 51.387
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "ne",
+          "start": 51.434,
+          "end": 51.479
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 6,
+      "start": 51.526,
+      "end": 52.063,
+      "text": "passe pas",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "passe",
+          "start": 51.526,
+          "end": 51.757
+        },
+        {
+          "id": "caption-word-48-1",
+          "text": "pas",
+          "start": 51.804,
+          "end": 51.943
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 6,
+      "start": 52.731,
+      "end": 54.058,
+      "text": "Chaque UE validée",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "Chaque",
+          "start": 52.731,
+          "end": 53.103
+        },
+        {
+          "id": "caption-word-49-1",
+          "text": "UE",
+          "start": 53.195,
+          "end": 53.381
+        },
+        {
+          "id": "caption-word-49-2",
+          "text": "validée",
+          "start": 53.427,
+          "end": 53.938
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 6,
+      "start": 54.169,
+      "end": 55.422,
+      "text": "reste acquise à",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "reste",
+          "start": 54.169,
+          "end": 54.494
+        },
+        {
+          "id": "caption-word-50-1",
+          "text": "acquise",
+          "start": 54.587,
+          "end": 54.957
+        },
+        {
+          "id": "caption-word-50-2",
+          "text": "à",
+          "start": 55.097,
+          "end": 55.375
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 6,
+      "start": 55.422,
+      "end": 55.982,
+      "text": "vie,",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "vie,",
+          "start": 55.422,
+          "end": 55.862
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 6,
+      "start": 56.117,
+      "end": 57.373,
+      "text": "avec ses crédits.",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "avec",
+          "start": 56.117,
+          "end": 56.442
+        },
+        {
+          "id": "caption-word-52-1",
+          "text": "ses",
+          "start": 56.488,
+          "end": 56.581
+        },
+        {
+          "id": "caption-word-52-2",
+          "text": "crédits.",
+          "start": 56.627,
+          "end": 57.253
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 6,
+      "start": 57.462,
+      "end": 59.071,
+      "text": "C'est la capitalisation.",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "C'est",
+          "start": 57.462,
+          "end": 57.694
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "la",
+          "start": 57.74,
+          "end": 57.833
+        },
+        {
+          "id": "caption-word-53-2",
+          "text": "capitalisation.",
+          "start": 57.879,
+          "end": 58.951
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 7,
+      "start": 59.581,
+      "end": 60.536,
+      "text": "Bon à savoir",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "Bon",
+          "start": 59.581,
+          "end": 59.813
+        },
+        {
+          "id": "caption-word-54-1",
+          "text": "à",
+          "start": 59.86,
+          "end": 59.952
+        },
+        {
+          "id": "caption-word-54-2",
+          "text": "savoir",
+          "start": 59.999,
+          "end": 60.416
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 7,
+      "start": 60.973,
+      "end": 61.668,
+      "text": "avec au",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "avec",
+          "start": 60.973,
+          "end": 61.436
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "au",
+          "start": 61.482,
+          "end": 61.621
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 7,
+      "start": 61.668,
+      "end": 62.967,
+      "text": "moins quarante-deux crédits",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "moins",
+          "start": 61.668,
+          "end": 61.854
+        },
+        {
+          "id": "caption-word-56-1",
+          "text": "quarante-deux",
+          "start": 61.9,
+          "end": 62.503
+        },
+        {
+          "id": "caption-word-56-2",
+          "text": "crédits",
+          "start": 62.55,
+          "end": 62.92
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 7,
+      "start": 62.967,
+      "end": 63.291,
+      "text": "sur les",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "sur",
+          "start": 62.967,
+          "end": 63.06
+        },
+        {
+          "id": "caption-word-57-1",
+          "text": "les",
+          "start": 63.106,
+          "end": 63.245
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 7,
+      "start": 63.291,
+      "end": 64.293,
+      "text": "soixante de L1,",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "soixante",
+          "start": 63.291,
+          "end": 63.663
+        },
+        {
+          "id": "caption-word-58-1",
+          "text": "de",
+          "start": 63.755,
+          "end": 63.802
+        },
+        {
+          "id": "caption-word-58-2",
+          "text": "L1,",
+          "start": 63.894,
+          "end": 64.173
+        }
+      ]
+    },
+    {
+      "id": "caption-group-59",
+      "frame": 7,
+      "start": 64.451,
+      "end": 64.868,
+      "text": "tu peux",
+      "words": [
+        {
+          "id": "caption-word-59-0",
+          "text": "tu",
+          "start": 64.451,
+          "end": 64.636
+        },
+        {
+          "id": "caption-word-59-1",
+          "text": "peux",
+          "start": 64.682,
+          "end": 64.821
+        }
+      ]
+    },
+    {
+      "id": "caption-group-60",
+      "frame": 7,
+      "start": 64.868,
+      "end": 66.074,
+      "text": "passer en L2",
+      "words": [
+        {
+          "id": "caption-word-60-0",
+          "text": "passer",
+          "start": 64.868,
+          "end": 65.193
+        },
+        {
+          "id": "caption-word-60-1",
+          "text": "en",
+          "start": 65.286,
+          "end": 65.425
+        },
+        {
+          "id": "caption-word-60-2",
+          "text": "L2",
+          "start": 65.471,
+          "end": 66.028
+        }
+      ]
+    },
+    {
+      "id": "caption-group-61",
+      "frame": 7,
+      "start": 66.074,
+      "end": 67.081,
+      "text": "sous condition.",
+      "words": [
+        {
+          "id": "caption-word-61-0",
+          "text": "sous",
+          "start": 66.074,
+          "end": 66.306
+        },
+        {
+          "id": "caption-word-61-1",
+          "text": "condition.",
+          "start": 66.352,
+          "end": 66.961
+        }
+      ]
+    },
+    {
+      "id": "caption-group-62",
+      "frame": 8,
+      "start": 67.47,
+      "end": 68.239,
+      "text": "À retenir",
+      "words": [
+        {
+          "id": "caption-word-62-0",
+          "text": "À",
+          "start": 67.47,
+          "end": 67.656
+        },
+        {
+          "id": "caption-word-62-1",
+          "text": "retenir",
+          "start": 67.702,
+          "end": 68.119
+        }
+      ]
+    },
+    {
+      "id": "caption-group-63",
+      "frame": 8,
+      "start": 68.676,
+      "end": 69.14,
+      "text": "dix de",
+      "words": [
+        {
+          "id": "caption-word-63-0",
+          "text": "dix",
+          "start": 68.676,
+          "end": 68.908
+        },
+        {
+          "id": "caption-word-63-1",
+          "text": "de",
+          "start": 69.047,
+          "end": 69.093
+        }
+      ]
+    },
+    {
+      "id": "caption-group-64",
+      "frame": 8,
+      "start": 69.14,
+      "end": 70.303,
+      "text": "moyenne pondérée,",
+      "words": [
+        {
+          "id": "caption-word-64-0",
+          "text": "moyenne",
+          "start": 69.14,
+          "end": 69.464
+        },
+        {
+          "id": "caption-word-64-1",
+          "text": "pondérée,",
+          "start": 69.51,
+          "end": 70.183
+        }
+      ]
+    },
+    {
+      "id": "caption-group-65",
+      "frame": 8,
+      "start": 70.345,
+      "end": 71.509,
+      "text": "trente crédits,",
+      "words": [
+        {
+          "id": "caption-word-65-0",
+          "text": "trente",
+          "start": 70.345,
+          "end": 70.67
+        },
+        {
+          "id": "caption-word-65-1",
+          "text": "crédits,",
+          "start": 70.717,
+          "end": 71.389
+        }
+      ]
+    },
+    {
+      "id": "caption-group-66",
+      "frame": 8,
+      "start": 71.597,
+      "end": 72.293,
+      "text": "et tout",
+      "words": [
+        {
+          "id": "caption-word-66-0",
+          "text": "et",
+          "start": 71.597,
+          "end": 71.876
+        },
+        {
+          "id": "caption-word-66-1",
+          "text": "tout",
+          "start": 71.922,
+          "end": 72.247
+        }
+      ]
+    },
+    {
+      "id": "caption-group-67",
+      "frame": 8,
+      "start": 72.293,
+      "end": 72.665,
+      "text": "ce qui",
+      "words": [
+        {
+          "id": "caption-word-67-0",
+          "text": "ce",
+          "start": 72.293,
+          "end": 72.386
+        },
+        {
+          "id": "caption-word-67-1",
+          "text": "qui",
+          "start": 72.479,
+          "end": 72.618
+        }
+      ]
+    },
+    {
+      "id": "caption-group-68",
+      "frame": 8,
+      "start": 72.665,
+      "end": 73.295,
+      "text": "est validé",
+      "words": [
+        {
+          "id": "caption-word-68-0",
+          "text": "est",
+          "start": 72.665,
+          "end": 72.71
+        },
+        {
+          "id": "caption-word-68-1",
+          "text": "validé",
+          "start": 72.757,
+          "end": 73.175
+        }
+      ]
+    },
+    {
+      "id": "caption-group-69",
+      "frame": 8,
+      "start": 73.453,
+      "end": 74.36,
+      "text": "reste acquis.",
+      "words": [
+        {
+          "id": "caption-word-69-0",
+          "text": "reste",
+          "start": 73.453,
+          "end": 73.778
+        },
+        {
+          "id": "caption-word-69-1",
+          "text": "acquis.",
+          "start": 73.824,
+          "end": 74.24
+        }
+      ]
+    }
+  ]
+}

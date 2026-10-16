@@ -1,0 +1,65 @@
+<template>
+<style>
+@font-face{font-family:"Inter";font-weight:400;src:url("assets/fonts/inter-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:400;src:url("assets/fonts/space-grotesk-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:500;src:url("assets/fonts/inter-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:500;src:url("assets/fonts/space-grotesk-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:600;src:url("assets/fonts/inter-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:600;src:url("assets/fonts/space-grotesk-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:700;src:url("assets/fonts/inter-latin-700-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:700;src:url("assets/fonts/space-grotesk-latin-700-normal.woff2") format("woff2");}
+#root{position:absolute;inset:0;font-family:"Inter",sans-serif;color:#111;}
+.x02-bg{position:absolute;inset:0;background:#fdfae7;}
+.x02-stage{position:absolute;inset:0;padding:150px 72px 340px 72px;display:flex;flex-direction:column;}
+.x02-sp{flex:1;}
+.x02-hdr{display:flex;flex-direction:column;align-items:flex-start;gap:26px;}
+.x02-eyebrow{font-family:"Space Grotesk";font-weight:600;font-size:30px;letter-spacing:.08em;text-transform:uppercase;color:#1e2bfa;}
+.x02-pill{font-family:"Space Grotesk";font-weight:500;font-size:28px;color:#1e2bfa;background:rgba(30,43,250,.08);border-radius:100px;padding:12px 26px;display:inline-block;}
+.x02-h1{font-family:"Space Grotesk";font-weight:700;font-size:150px;line-height:1.02;letter-spacing:-.02em;}
+.x02-h2{font-family:"Space Grotesk";font-weight:600;font-size:92px;line-height:1.08;letter-spacing:-.02em;margin-top:36px;}
+.x02-body{font-size:42px;line-height:1.45;color:#6b6b6b;}
+.x02-card{background:rgba(30,43,250,.04);border:1.5px solid rgba(30,43,250,.2);border-radius:14px;}
+.x02-num{font-family:"Space Grotesk";font-weight:700;color:#1e2bfa;font-variant-numeric:tabular-nums;}
+.x02-neg{color:#dc2626;}
+.x02-w{display:inline-block;}
+.x02-counter{position:absolute;left:72px;bottom:40px;font-family:"Space Grotesk";font-weight:500;font-size:24px;letter-spacing:.05em;color:#737373;}
+.x02-prog{position:absolute;left:0;bottom:0;height:6px;background:#1e2bfa;}
+.x02-lock{display:inline-block;position:relative;width:34px;height:40px;vertical-align:middle;}
+.x02-lock::before{content:"";position:absolute;left:7px;top:0;width:20px;height:22px;border:5px solid #1e2bfa;border-bottom:none;border-radius:12px 12px 0 0;box-sizing:border-box;}
+.x02-lock::after{content:"";position:absolute;left:0;bottom:0;width:34px;height:24px;background:#1e2bfa;border-radius:5px;}
+</style>
+<div id="root" data-composition-id="02-ue-credits" data-width="1080" data-height="1920" data-duration="8.733">
+  <div id="x02-bg" class="x02-bg clip" data-start="0" data-duration="8.733" data-track-index="0"></div>
+  <div class="x02-stage">
+  <div class="x02-hdr"><div class="x02-pill">UASZ · Scolarité</div><div class="x02-eyebrow" id="x02-eyebrow">Les bases</div></div><div class="x02-sp" style="flex:.55;"></div>
+  <div class="x02-h2" id="x02-title">Un semestre = <span class="x02-w" id="x02-n30w"><span class="x02-num x02-w" id="x02-n30">30</span> crédits</span></div>
+  <div class="x02-body" id="x02-sub" style="margin-top:22px;">UE = unité d'enseignement</div>
+  <div style="margin-top:70px;"><div class="x02-card" id="x02-b0" style="width:100%;height:170px;margin-top:24px;padding:0 40px;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;background:rgba(30,43,250,.10);transform-origin:left center;"><div style="font-family:'Space Grotesk';font-weight:600;font-size:50px;">UE 1</div><div id="x02-c0"><span class="x02-num" style="font-size:88px;">9</span> <span class="x02-body">crédits</span></div></div><div class="x02-card" id="x02-b1" style="width:100%;height:170px;margin-top:24px;padding:0 40px;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;background:rgba(30,43,250,.10);transform-origin:left center;"><div style="font-family:'Space Grotesk';font-weight:600;font-size:50px;">UE 2</div><div id="x02-c1"><span class="x02-num" style="font-size:88px;">9</span> <span class="x02-body">crédits</span></div></div><div class="x02-card" id="x02-b2" style="width:66.7%;height:170px;margin-top:24px;padding:0 40px;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;background:rgba(30,43,250,.05);transform-origin:left center;"><div style="font-family:'Space Grotesk';font-weight:600;font-size:50px;">UE 3</div><div id="x02-c2"><span class="x02-num" style="font-size:88px;">6</span> <span class="x02-body">crédits</span></div></div><div class="x02-card" id="x02-b3" style="width:66.7%;height:170px;margin-top:24px;padding:0 40px;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;background:rgba(30,43,250,.05);transform-origin:left center;"><div style="font-family:'Space Grotesk';font-weight:600;font-size:50px;">UE 4</div><div id="x02-c3"><span class="x02-num" style="font-size:88px;">6</span> <span class="x02-body">crédits</span></div></div></div>
+  <div id="x02-axis" style="margin-top:34px;text-align:right;font-family:'Space Grotesk';font-weight:600;font-size:36px;color:#737373;">9 + 9 + 6 + 6 = 30 crédits</div>
+  <div class="x02-sp"></div></div>
+  <div class="x02-counter">02 / 08</div>
+  <div class="x02-prog" style="width:25%"></div>
+</div>
+<script>
+(function(){
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#x02-title", {opacity:0,y:30}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 0.2);
+  tl.fromTo("#x02-n30w", {opacity:0}, {opacity:1,duration:0.3,ease:"power2.out"}, 6.3);
+  document.getElementById("x02-n30").textContent="0";
+  tl.fromTo("#x02-sub", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.6,ease:"power3.out"}, 1.6);
+  tl.fromTo("#x02-b0", {opacity:0,x:-40,scaleX:0.85}, {opacity:1,x:0,scaleX:1,duration:0.6,ease:"power3.out"}, 2.9);
+  tl.fromTo("#x02-b1", {opacity:0,x:-40,scaleX:0.85}, {opacity:1,x:0,scaleX:1,duration:0.6,ease:"power3.out"}, 3.2);
+  tl.fromTo("#x02-b2", {opacity:0,x:-40,scaleX:0.85}, {opacity:1,x:0,scaleX:1,duration:0.6,ease:"power3.out"}, 3.5);
+  tl.fromTo("#x02-b3", {opacity:0,x:-40,scaleX:0.85}, {opacity:1,x:0,scaleX:1,duration:0.6,ease:"power3.out"}, 3.8);
+  tl.fromTo("#x02-c0", {opacity:0,y:20}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 4.6);
+  tl.fromTo("#x02-c1", {opacity:0,y:20}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 4.85);
+  tl.fromTo("#x02-c2", {opacity:0,y:20}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 5.1);
+  tl.fromTo("#x02-c3", {opacity:0,y:20}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 5.35);
+  tl.fromTo("#x02-n30", {scale:0.6}, {scale:1,duration:1.2,ease:"power2.out"}, 6.3);
+  (function(){const el=document.getElementById("x02-n30");const s={v:0};tl.to(s,{v:30,duration:1.2,ease:"power2.out",onUpdate:function(){el.textContent=Math.round(s.v);}}, 6.3);})();
+  tl.fromTo("#x02-axis", {opacity:0,y:10}, {opacity:1,y:0,x:0,duration:0.6,ease:"power3.out"}, 6.7);
+  tl.set({}, {}, 8.333);
+  window.__timelines["02-ue-credits"] = tl;
+})();
+</script>
+</template>

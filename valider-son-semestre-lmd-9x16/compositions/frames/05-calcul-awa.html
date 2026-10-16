@@ -1,0 +1,62 @@
+<template>
+<style>
+@font-face{font-family:"Inter";font-weight:400;src:url("assets/fonts/inter-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:400;src:url("assets/fonts/space-grotesk-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:500;src:url("assets/fonts/inter-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:500;src:url("assets/fonts/space-grotesk-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:600;src:url("assets/fonts/inter-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:600;src:url("assets/fonts/space-grotesk-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:700;src:url("assets/fonts/inter-latin-700-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:700;src:url("assets/fonts/space-grotesk-latin-700-normal.woff2") format("woff2");}
+#root{position:absolute;inset:0;font-family:"Inter",sans-serif;color:#111;}
+.x05-bg{position:absolute;inset:0;background:#fdfae7;}
+.x05-stage{position:absolute;inset:0;padding:150px 72px 340px 72px;display:flex;flex-direction:column;}
+.x05-sp{flex:1;}
+.x05-hdr{display:flex;flex-direction:column;align-items:flex-start;gap:26px;}
+.x05-eyebrow{font-family:"Space Grotesk";font-weight:600;font-size:30px;letter-spacing:.08em;text-transform:uppercase;color:#1e2bfa;}
+.x05-pill{font-family:"Space Grotesk";font-weight:500;font-size:28px;color:#1e2bfa;background:rgba(30,43,250,.08);border-radius:100px;padding:12px 26px;display:inline-block;}
+.x05-h1{font-family:"Space Grotesk";font-weight:700;font-size:150px;line-height:1.02;letter-spacing:-.02em;}
+.x05-h2{font-family:"Space Grotesk";font-weight:600;font-size:92px;line-height:1.08;letter-spacing:-.02em;margin-top:36px;}
+.x05-body{font-size:42px;line-height:1.45;color:#6b6b6b;}
+.x05-card{background:rgba(30,43,250,.04);border:1.5px solid rgba(30,43,250,.2);border-radius:14px;}
+.x05-num{font-family:"Space Grotesk";font-weight:700;color:#1e2bfa;font-variant-numeric:tabular-nums;}
+.x05-neg{color:#dc2626;}
+.x05-w{display:inline-block;}
+.x05-counter{position:absolute;left:72px;bottom:40px;font-family:"Space Grotesk";font-weight:500;font-size:24px;letter-spacing:.05em;color:#737373;}
+.x05-prog{position:absolute;left:0;bottom:0;height:6px;background:#1e2bfa;}
+.x05-lock{display:inline-block;position:relative;width:34px;height:40px;vertical-align:middle;}
+.x05-lock::before{content:"";position:absolute;left:7px;top:0;width:20px;height:22px;border:5px solid #1e2bfa;border-bottom:none;border-radius:12px 12px 0 0;box-sizing:border-box;}
+.x05-lock::after{content:"";position:absolute;left:0;bottom:0;width:34px;height:24px;background:#1e2bfa;border-radius:5px;}
+</style>
+<div id="root" data-composition-id="05-calcul-awa" data-width="1080" data-height="1920" data-duration="12.6">
+  <div id="x05-bg" class="x05-bg clip" data-start="0" data-duration="12.6" data-track-index="0"></div>
+  <div class="x05-stage">
+  <div class="x05-hdr"><div class="x05-pill">UASZ · Scolarité</div><div class="x05-eyebrow" id="x05-eyebrow">Le calcul d'Awa</div></div><div class="x05-sp" style="flex:.55;"></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;"><div class="x05-card" id="x05-k0" style="padding:28px 34px;display:flex;justify-content:space-between;align-items:baseline;"><span style="font-family:'Space Grotesk';font-weight:600;font-size:40px;">UE 1</span><span><span class="x05-num " style="font-size:64px;">12</span> <span class="x05-body" style="font-size:30px;">× 9</span></span></div><div class="x05-card" id="x05-k1" style="padding:28px 34px;display:flex;justify-content:space-between;align-items:baseline;"><span style="font-family:'Space Grotesk';font-weight:600;font-size:40px;">UE 2</span><span><span class="x05-num x05-neg" style="font-size:64px;">8,5</span> <span class="x05-body" style="font-size:30px;">× 9</span></span></div><div class="x05-card" id="x05-k2" style="padding:28px 34px;display:flex;justify-content:space-between;align-items:baseline;"><span style="font-family:'Space Grotesk';font-weight:600;font-size:40px;">UE 3</span><span><span class="x05-num " style="font-size:64px;">11</span> <span class="x05-body" style="font-size:30px;">× 6</span></span></div><div class="x05-card" id="x05-k3" style="padding:28px 34px;display:flex;justify-content:space-between;align-items:baseline;"><span style="font-family:'Space Grotesk';font-weight:600;font-size:40px;">UE 4</span><span><span class="x05-num x05-neg" style="font-size:64px;">9</span> <span class="x05-body" style="font-size:30px;">× 6</span></span></div></div>
+  <div style="font-family:'Space Grotesk';font-weight:500;font-size:50px;line-height:1.35;text-align:center;margin-top:80px;color:#6b6b6b;"><span class="x05-w" id="x05-t0">(12×9</span> <span class="x05-w" id="x05-t1">+ 8,5×9</span> <span class="x05-w" id="x05-t2">+ 11×6</span> <span class="x05-w" id="x05-t3">+ 9×6)</span> <span class="x05-w" id="x05-t4">÷ 30</span></div>
+  <div style="text-align:center;margin-top:40px;"><span class="x05-num x05-w" id="x05-res" style="font-size:300px;line-height:1;transform-origin:center center;">10,15</span></div>
+  <div style="display:flex;justify-content:center;margin-top:56px;"><div id="x05-stamp" style="border:6px solid #059669;color:#059669;border-radius:18px;padding:26px 44px;font-family:'Space Grotesk';font-weight:700;font-size:56px;line-height:1.2;text-align:center;"><div>SEMESTRE VALIDÉ</div><div style="font-size:40px;">30 crédits acquis</div></div></div>
+  <div class="x05-sp"></div></div>
+  <div class="x05-counter">05 / 08</div>
+  <div class="x05-prog" style="width:62.5%"></div>
+</div>
+<script>
+(function(){
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#x05-k0", {opacity:0,y:-24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.2);
+  tl.fromTo("#x05-k1", {opacity:0,y:-24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.8);
+  tl.fromTo("#x05-k2", {opacity:0,y:-24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 3.5);
+  tl.fromTo("#x05-k3", {opacity:0,y:-24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 4.0);
+  tl.fromTo("#x05-t0", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.4,ease:"power3.out"}, 4.3);
+  tl.fromTo("#x05-t1", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.4,ease:"power3.out"}, 4.45);
+  tl.fromTo("#x05-t2", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.4,ease:"power3.out"}, 4.6);
+  tl.fromTo("#x05-t3", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.4,ease:"power3.out"}, 4.75);
+  tl.fromTo("#x05-t4", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.4,ease:"power3.out"}, 4.9);
+  tl.fromTo("#x05-res", {opacity:0,scale:0.55}, {opacity:1,scale:1,duration:1.9,ease:"power2.out"}, 5.0);
+  (function(){const el=document.getElementById("x05-res");const s={v:0};tl.to(s,{v:10.15,duration:1.9,ease:"power2.out",onUpdate:function(){el.textContent=s.v.toFixed(2).replace(".",",");}}, 5.0);})();
+  tl.fromTo("#x05-stamp", {opacity:0,scale:1.8,rotation:-14}, {opacity:1,scale:1,rotation:-6,duration:0.45,ease:"back.out(1.8)"}, 7.9);
+  tl.set({}, {}, 12.1);
+  window.__timelines["05-calcul-awa"] = tl;
+})();
+</script>
+</template>

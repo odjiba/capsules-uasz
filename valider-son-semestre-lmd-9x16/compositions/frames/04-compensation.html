@@ -1,0 +1,73 @@
+<template>
+<style>
+@font-face{font-family:"Inter";font-weight:400;src:url("assets/fonts/inter-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:400;src:url("assets/fonts/space-grotesk-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:500;src:url("assets/fonts/inter-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:500;src:url("assets/fonts/space-grotesk-latin-500-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:600;src:url("assets/fonts/inter-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:600;src:url("assets/fonts/space-grotesk-latin-600-normal.woff2") format("woff2");}
+@font-face{font-family:"Inter";font-weight:700;src:url("assets/fonts/inter-latin-700-normal.woff2") format("woff2");}
+@font-face{font-family:"Space Grotesk";font-weight:700;src:url("assets/fonts/space-grotesk-latin-700-normal.woff2") format("woff2");}
+#root{position:absolute;inset:0;font-family:"Inter",sans-serif;color:#111;}
+.x04-bg{position:absolute;inset:0;background:#fdfae7;}
+.x04-stage{position:absolute;inset:0;padding:150px 72px 340px 72px;display:flex;flex-direction:column;}
+.x04-sp{flex:1;}
+.x04-hdr{display:flex;flex-direction:column;align-items:flex-start;gap:26px;}
+.x04-eyebrow{font-family:"Space Grotesk";font-weight:600;font-size:30px;letter-spacing:.08em;text-transform:uppercase;color:#1e2bfa;}
+.x04-pill{font-family:"Space Grotesk";font-weight:500;font-size:28px;color:#1e2bfa;background:rgba(30,43,250,.08);border-radius:100px;padding:12px 26px;display:inline-block;}
+.x04-h1{font-family:"Space Grotesk";font-weight:700;font-size:150px;line-height:1.02;letter-spacing:-.02em;}
+.x04-h2{font-family:"Space Grotesk";font-weight:600;font-size:92px;line-height:1.08;letter-spacing:-.02em;margin-top:36px;}
+.x04-body{font-size:42px;line-height:1.45;color:#6b6b6b;}
+.x04-card{background:rgba(30,43,250,.04);border:1.5px solid rgba(30,43,250,.2);border-radius:14px;}
+.x04-num{font-family:"Space Grotesk";font-weight:700;color:#1e2bfa;font-variant-numeric:tabular-nums;}
+.x04-neg{color:#dc2626;}
+.x04-w{display:inline-block;}
+.x04-counter{position:absolute;left:72px;bottom:40px;font-family:"Space Grotesk";font-weight:500;font-size:24px;letter-spacing:.05em;color:#737373;}
+.x04-prog{position:absolute;left:0;bottom:0;height:6px;background:#1e2bfa;}
+.x04-lock{display:inline-block;position:relative;width:34px;height:40px;vertical-align:middle;}
+.x04-lock::before{content:"";position:absolute;left:7px;top:0;width:20px;height:22px;border:5px solid #1e2bfa;border-bottom:none;border-radius:12px 12px 0 0;box-sizing:border-box;}
+.x04-lock::after{content:"";position:absolute;left:0;bottom:0;width:34px;height:24px;background:#1e2bfa;border-radius:5px;}
+</style>
+<div id="root" data-composition-id="04-compensation" data-width="1080" data-height="1920" data-duration="11.236">
+  <div id="x04-bg" class="x04-bg clip" data-start="0" data-duration="11.236" data-track-index="0"></div>
+  <div class="x04-stage">
+  <div class="x04-hdr"><div class="x04-pill">UASZ · Scolarité</div><div class="x04-eyebrow" id="x04-eyebrow">Règle 2 · La compensation</div></div><div class="x04-sp" style="flex:.55;"></div>
+  <div class="x04-h2"><span class="x04-w" id="x04-q0">Et</span> <span class="x04-w" id="x04-q1">si</span> <span class="x04-w" id="x04-q2">une</span> <span class="x04-w" id="x04-q3">UE</span> <span class="x04-w" id="x04-q4">est</span> <span class="x04-w" id="x04-q5">sous</span> <span class="x04-w" id="x04-q6">la</span> <span class="x04-w" id="x04-q7">moyenne</span> <span class="x04-w" id="x04-q8">?</span></div>
+  <div class="x04-body" id="x04-sub" style="margin-top:22px;">Moyenne <b style="color:#111;">pondérée par les crédits</b></div>
+  <div style="position:relative;margin-top:110px;"><div style="display:flex;gap:16px;align-items:flex-end;"><div class="x04-card" id="x04-b0" style="flex:9;height:540px;padding:24px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;"><div style="font-family:'Space Grotesk';font-weight:600;font-size:38px;">UE 1</div><div><div class="x04-num " style="font-size:68px;line-height:1;">12</div><div class="x04-body" id="x04-p0" style="font-size:28px;margin-top:8px;">poids 9</div></div></div><div class="x04-card" id="x04-b1" style="flex:9;height:540px;padding:24px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;border-color:#dc2626;"><div style="font-family:'Space Grotesk';font-weight:600;font-size:38px;">UE 2</div><div><div class="x04-num x04-neg" style="font-size:68px;line-height:1;">8,5</div><div class="x04-body" id="x04-p1" style="font-size:28px;margin-top:8px;">poids 9</div></div></div><div class="x04-card" id="x04-b2" style="flex:6;height:370px;padding:24px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;"><div style="font-family:'Space Grotesk';font-weight:600;font-size:38px;">UE 3</div><div><div class="x04-num " style="font-size:68px;line-height:1;">11</div><div class="x04-body" id="x04-p2" style="font-size:28px;margin-top:8px;">poids 6</div></div></div><div class="x04-card" id="x04-b3" style="flex:6;height:370px;padding:24px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;border-color:#dc2626;"><div style="font-family:'Space Grotesk';font-weight:600;font-size:38px;">UE 4</div><div><div class="x04-num x04-neg" style="font-size:68px;line-height:1;">9</div><div class="x04-body" id="x04-p3" style="font-size:28px;margin-top:8px;">poids 6</div></div></div></div><div id="x04-beam" style="height:12px;background:#111;border-radius:6px;margin-top:16px;transform-origin:center center;"></div><div id="x04-pivot" style="width:0;height:0;margin:0 auto;border-left:48px solid transparent;border-right:48px solid transparent;border-bottom:72px solid #1e2bfa;"></div></div>
+  <div class="x04-sp"></div></div>
+  <div class="x04-counter">04 / 08</div>
+  <div class="x04-prog" style="width:50%"></div>
+</div>
+<script>
+(function(){
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#x04-q0", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.3);
+  tl.fromTo("#x04-q1", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.5);
+  tl.fromTo("#x04-q2", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.75);
+  tl.fromTo("#x04-q3", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 0.9);
+  tl.fromTo("#x04-q4", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.25);
+  tl.fromTo("#x04-q5", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.5);
+  tl.fromTo("#x04-q6", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.75);
+  tl.fromTo("#x04-q7", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 1.9);
+  tl.fromTo("#x04-q8", {opacity:0,y:24}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 2.4);
+  tl.fromTo("#x04-sub", {opacity:0,y:16}, {opacity:1,y:0,x:0,duration:0.6,ease:"power3.out"}, 4.3);
+  tl.fromTo("#x04-b0", {opacity:0,y:60}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 6.0);
+  tl.fromTo("#x04-b1", {opacity:0,y:60}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 6.35);
+  tl.fromTo("#x04-b2", {opacity:0,y:60}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 6.7);
+  tl.fromTo("#x04-b3", {opacity:0,y:60}, {opacity:1,y:0,x:0,duration:0.7,ease:"power3.out"}, 7.05);
+  tl.fromTo("#x04-beam", {scaleX:0}, {scaleX:1,duration:0.7,ease:"power3.out"}, 7.7);
+  tl.fromTo("#x04-pivot", {opacity:0,y:20}, {opacity:1,y:0,x:0,duration:0.5,ease:"power3.out"}, 8.1);
+  tl.fromTo("#x04-p0", {opacity:0.25}, {opacity:1,duration:0.4,ease:"power2.out"}, 9.1);
+  tl.fromTo("#x04-p1", {opacity:0.25}, {opacity:1,duration:0.4,ease:"power2.out"}, 9.3);
+  tl.fromTo("#x04-p2", {opacity:0.25}, {opacity:1,duration:0.4,ease:"power2.out"}, 9.5);
+  tl.fromTo("#x04-p3", {opacity:0.25}, {opacity:1,duration:0.4,ease:"power2.out"}, 9.7);
+  tl.set("#x04-p0", {opacity:0.25}, 0);
+  tl.set("#x04-p1", {opacity:0.25}, 0);
+  tl.set("#x04-p2", {opacity:0.25}, 0);
+  tl.set("#x04-p3", {opacity:0.25}, 0);
+  tl.set({}, {}, 10.736);
+  window.__timelines["04-compensation"] = tl;
+})();
+</script>
+</template>
